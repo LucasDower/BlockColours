@@ -52,5 +52,6 @@ void draw() {
     float y = height/2 + sat * sin(hue);
     image(image, x - image.width/2, y - image.height/2);
   }
+  
   save("output.png");
 }
